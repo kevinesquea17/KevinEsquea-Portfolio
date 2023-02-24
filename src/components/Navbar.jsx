@@ -11,10 +11,10 @@ const Navbar = () => {
         <h2 className='text-red-500 text-2xl font-bold'>My<span className='text-gray-800 font-semibold'>Portfolio</span></h2>
         <nav className={`${showMenu ? 'absolute sm:relative flex-col px-4 sm:p-0 bg-white items-center space-y-4 sm:space-y-0 sm:bg-transparent sm:flex-row top-16 sm:top-0 left-0 w-full sm:w-fit' : 'hidden sm:flex'} flex sm:space-x-6 text-lg`}>
             <a href="#" className='text-red-500 font-bold'>Home</a>
-            <a href="#" className='hover:text-red-500 hover:font-bold transition-all duration-300'>Porfolio</a>
-            <a href="#" className='hover:text-red-500 hover:font-bold transition-all duration-300'>Skills</a>
+            <a href="#portfolio" className='hover:text-red-500 hover:font-bold transition-all duration-300'>Porfolio</a>
+            <a href="#skills" className='hover:text-red-500 hover:font-bold transition-all duration-300'>Skills</a>
             <a href="#" className='hover:text-red-500 hover:font-bold transition-all duration-300'>About</a>
-            <a href="#" className='hover:text-red-500 hover:font-bold transition-all duration-300'>Contact</a>
+            <a href="#contact" className='hover:text-red-500 hover:font-bold transition-all duration-300'>Contact</a>
         </nav>
         <div className='sm:hidden flex justify-center items-center h-10 w-10 rounded bg-white'>
           {!showMenu && <RiMenu3Fill  className='text-xl text-red-500' onClick={() => {setShowMenu(true); console.log('showmenu')}}/>}

@@ -6,7 +6,7 @@ import {SiExpress, SiSocketdotio, SiMongodb, SiMysql} from 'react-icons/si'
 
 const Skills = () => {
   return (
-    <section className='font-quicksand py-10 bg-[#F4F5FE]'>
+    <section className='font-quicksand py-10 bg-[#F4F5FE]' id='skills'>
         <div className='w-[90%] sm:w-[80%] mx-auto'>
           <div className='text-center mb-16'>
             <h2 className='text-3xl font-bold mb-2 text-gray-800'>Conocimientos, tecnologias y herramientas.</h2>
