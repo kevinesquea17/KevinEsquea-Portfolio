@@ -7,7 +7,7 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false)
 
   return (
-    <header className='flex justify-between items-center h-[70px] sm:w-[85%] w-[100%] sm:p-0 px-4 mx-auto relative z-10'>
+    <header className='flex justify-between items-center h-[70px] sm:w-[85%] w-[100%] sm:p-0 px-4 mx-auto absolute top-0 left-0 z-10'>
         <h2 className='text-red-500 text-2xl font-bold'>My<span className='text-gray-800 font-semibold'>Portfolio</span></h2>
         <nav className={`${showMenu ? 'absolute sm:relative flex-col px-4 sm:p-0 bg-white items-center space-y-4 sm:space-y-0 sm:bg-transparent sm:flex-row top-16 sm:top-0 left-0 w-full sm:w-fit' : 'hidden sm:flex'} flex sm:space-x-6 text-lg`}>
             <a href="#" className='text-red-500 font-bold'>Home</a>
