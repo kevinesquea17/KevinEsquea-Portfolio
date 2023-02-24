@@ -1,5 +1,5 @@
 import React from 'react'
-import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai'
+
 
 const Header = () => {
   return (
@@ -11,11 +11,7 @@ const Header = () => {
               <button className='border-[1px] border-red-500 text-red-500 px-4 py-2 rounded'>Descargar CV</button>
               <button className='bg-gradient-to-r from-red-400 to-red-500 px-4 py-2 rounded text-white shadow-lg shadow-red-400'>Contáctame</button> 
             </div>
-            <div className='absolute left-0 bottom-10 flex flex-col space-y-4 items-center'>
-              <AiFillLinkedin className="text-xl text-red-500" />
-              <AiFillGithub className='text-xl text-red-500' />
-              <div className='h-8 w-[2px] bg-red-500'></div>
-            </div>
+            
         </div>
         <div className='border-l-8 border-r-8 border-solid border-red-400 absolute top-10 left-12'></div>
     </div>
