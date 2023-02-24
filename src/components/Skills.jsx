@@ -15,7 +15,7 @@ const Skills = () => {
           <div className="grid sm:grid-cols-2 grid-cols-1 sm:gap-10 gap-6">
             <div className="rounded-xl shadow-sm py-6 px-8 border">
               <h3 className='text-red-500 text-center text-xl font-bold mb-8'>Desarrollo Frontend</h3>
-              <div className='grid grid-cols-3 gap-4'>
+              <div className='grid sm:grid-cols-3 grid-cols-2 gap-4'>
                   <div className='bg-white flex flex-col items-center py-4 rounded-xl shadow overflow-hidden relative hover:shadow-sm hover:shadow-[#DE4A24] transition duration-300' >
                     {/* <div className='absolute w-12 h-12 rounded-full blur bg-red-500 -bottom-5 -right-5'></div> */}
                     <div className='bg-[#DE4A24] p-3 rounded-full w-12 h-12 mb-4 flex items-center justify-center'>
@@ -68,7 +68,7 @@ const Skills = () => {
             </div>
             <div className="rounded-xl shadow-sm border py-6 px-8">
               <h3 className='text-red-500 text-center text-xl font-bold mb-8'>Desarrollo Backend</h3>
-              <div className="grid grid-cols-3 gap-4">
+              <div className="grid sm:grid-cols-3 grid-cols-2 gap-4">
                 <div className='bg-white flex flex-col items-center py-4 rounded-xl shadow overflow-hidden relative hover:shadow-sm hover:shadow-[#8CC400] transition duration-300' >
                   {/* <div className='absolute w-12 h-12 rounded-full blur bg-red-500 -bottom-5 -right-5'></div> */}
                   <div className='bg-[#8CC400] p-3 rounded-full w-12 h-12 mb-4 flex items-center justify-center'>
