@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className='flex justify-center items-center relative w-[85%] mx-auto'>
         <div className='flex flex-col sm:w-[50%] w-full mx-auto items-center justify-center'>
-            <h3 className='text-5xl font-bold text-gray-900 mb-2 text-center'>Kevin Esquea</h3>
+            <h3 className='sm:text-5xl text-3xl font-bold text-gray-900 mb-2 text-center'>Kevin Esquea</h3>
             <h6 className='text-gray-400 text-base mb-6 text-center'>Desarrollador FullStack</h6>
             <div className='flex space-x-4'>
               <button className='border-[1px] border-red-500 text-red-500 px-4 py-2 rounded'>Descargar CV</button>
